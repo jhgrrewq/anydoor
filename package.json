@@ -1,0 +1,21 @@
+{
+  "name": "@qwerrghj/anydoor",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "anydoor": "bin/anydoor"
+  },
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.1"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.11",
+    "yargs": "^11.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
