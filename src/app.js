@@ -14,7 +14,6 @@
  * */
 
 const http = require('http');
-const chalk = require('chalk');
 const path = require('path');
 const conf = require('./config/defaultConfig');
 const route = require('./helper/route');
@@ -33,7 +32,7 @@ class Server {
     
     server.listen(this.conf.port, this.conf.hostname, () => {
       const info = `http://${this.conf.hostname}:${this.conf.port}`
-      console.log(`The server is listening at ${chalk.green(info)}`)
+      console.log(`The server is listening at ${info}`)
     })
   }
 }

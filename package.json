@@ -1,6 +1,6 @@
 {
   "name": "@qwerrghj/anywhere",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "",
   "bin": {
     "anywhere": "bin/anywhere"
@@ -8,9 +8,6 @@
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "chalk": "^2.4.1"
   },
   "dependencies": {
     "handlebars": "^4.0.11",
